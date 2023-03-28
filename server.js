@@ -9,18 +9,16 @@ const sessions =require("cookie-session")
 const cors =require("cors")
 
 const port = process.env.PORT || 3000;
-const fileUpload =require('express-fileupload')
-const ejs =require('ejs') 
+
+
 const { dirname } =require('path')
 const { fileURLToPath } =require('url')
 const morgan =require('morgan')
 const axios = require("axios");
-app.engine('html', ejs.renderFile);
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false  }));
 app.use(express.urlencoded({ extended: true })); 
 app.use('/public',express.static((__dirname+ '/public')))
-app.use(fileUpload({useTempFiles: true}))
 const { Client, GatewayIntentBits, Partials ,ActivityType,Events,ChannelType  } =require('discord.js');
 const fs =require('fs')
 const mongoose=require('mongoose')
