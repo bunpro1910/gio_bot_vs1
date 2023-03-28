@@ -1,0 +1,59 @@
+{
+  "name": "GCS0805B",
+  "version": "1.0.0",
+ 
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "build": "npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gokuhieu/GCS0805B.git"
+  },
+  "dependencies": {
+    "@discordjs/builders": "^0.12.0",
+    "@discordjs/opus": "^0.5.3",
+    "axios": "^0.26.1",
+    "body-parser": "^1.19.0",
+    "canvas": "^2.10.2",
+    "cloudinary": "^1.26.2",
+    "cookie-parser": "^1.4.5",
+    "cookie-session": "^1.4.0",
+    "cors": "^2.8.5",
+    "cross-fetch": "^3.1.5",
+    "discord-canvas": "^1.4.1",
+    "discord-music-player": "^9.0.2",
+    "discord-speech-to-text": "^1.1.5",
+    "discord-tts": "^1.2.2",
+    "discord.js": "^14.3.0",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.6",
+    "ejs-lint": "^1.2.0",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.2.1",
+    "express-session": "^1.17.2",
+    "gifencoder": "^2.0.1",
+    "google-tts-api": "^2.0.2",
+    "graphql-request": "^4.3.0",
+    "init": "^0.1.2",
+    "intl": "^1.2.5",
+    "mongoose": "^6.3.4",
+    "morgan": "^1.10.0",
+    "node-fetch": "^2.6.7",
+    "nodemailer": "^6.7.7",
+    "openai": "^3.2.1",
+    "path": "^0.12.7",
+    "pg": "^8.10.0",
+    "request": "^2.88.2",
+    "wokcommands": "^2.1.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gokuhieu/GCS0805B/issues"
+  },
+  "homepage": "https://github.com/gokuhieu/GCS0805B#readme",
+  "description": ""
+}
